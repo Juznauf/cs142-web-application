@@ -1,0 +1,71 @@
+
+div {
+    font-family: Tahoma;
+    font-size: 40px;
+}
+
+div.container {
+    display: flex;
+    width: 100%;
+    height: 98vh;
+    flex-direction: row;
+}
+
+div.first {
+    display: flex;
+    width:90px;
+    min-width: 90px;
+    height:150px;
+    min-height: 150px;
+    border-left: 10px dotted #D0D0FF;
+    padding-left: 10px;
+    margin-left: 10px;
+    align-items: top;
+    background-color: #eeeff2;
+    cursor: pointer;
+}
+
+div.last {
+    display: flex;
+    width:90px;
+    min-width: 90px;
+    height:150px;
+    min-height: 150px;
+    border-left: 10px dotted #D0D0FF;
+    padding-left: 10px;
+    margin-left: auto;
+    align-items: top;
+    background-color: #dfe1e7;
+    align-self: flex-end;
+    cursor: pointer;
+}
+div.first:hover {
+    display: flex;
+    width:90px;
+    min-width: 90px;
+    height:150px;
+    min-height: 150px;
+    border-left: 10px dotted #D0D0FF;
+    padding-left: 10px;
+    margin-left: 10px;
+    align-items: top;
+    background-color: yellow;
+    color: goldenrod;
+    cursor: pointer;
+}
+
+div.last:hover {
+    display: flex;
+    min-width: 90px;
+    width:90px;
+    height:150px;
+    min-height: 150px;
+    border-left: 10px dotted #D0D0FF;
+    padding-left: 10px;
+    margin-left: auto;
+    align-items: top;
+    background-color: yellow;
+    color: goldenrod;
+    align-self: flex-end;
+    cursor: pointer;
+}
