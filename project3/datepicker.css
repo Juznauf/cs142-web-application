@@ -1,0 +1,20 @@
+table, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+div {
+    max-width: 200px;
+}
+
+#td-selectors {
+    cursor: pointer;
+}
+
+#td-non-selectors {
+    opacity: 0.2;
+}
